@@ -1,0 +1,26 @@
+#output{
+	margin:25px 5px;
+	border:2px solid #000;
+	background: #FFFFF1;
+}
+
+
+#output p{
+	padding:2px 7px;
+}
+
+#output a{
+	padding:2px 7px;
+}
+
+/*this is the box with the "Find this Item" text above the res */
+.mapHeader{
+	color: #fff;
+	background-color: #8C0000;
+	padding: 5px 10px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4;
+	font-weight: bold;
+	text-align: center;
+}

@@ -1,0 +1,574 @@
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 21 November, 2006 -->
+<!--main content table-->
+<table width="100%">
+<tr>
+<td colspan="2">
+<html  dir="LTR">
+<head>
+<title>Pratt Institute                                                               </title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script language="JavaScript" type="text/javascript" src="/scripts/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/scripts/features.js"></script>
+<script language="JavaScript" type="text/javascript" src="/scripts/elcontent.js"></script>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(6000000, "/");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="6000;URL=/" />
+</noscript>
+
+<script type="text/javascript" src="/screens/bibdisplay.js"></script><script type="text/javascript" src="/screens/brief.js"></script><!--[if lte IE 8]><link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" /><![endif]-->
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 20 April, 2006 -->
+<div id="topLogohead">
+
+<div id="topID">
+	<div align="right">
+		<ul>
+			<li><a href="http://library.pratt.edu/about/">Library Home</a></li>
+			<li class="breaker">|</li>
+			<li><a href="/search">New Search</a></li>
+			<li class="breaker">|</li>
+			<li><a href="/patroninfo">My Account</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="float:left;">
+	<div id="topLogoImage"><a href="/"><img src="/screens/banner.gif" width="800" height="70" border="0" alt="Innovative Interfaces, Inc." /></a></div>
+</div>
+
+
+<div style="clear:both;"></div>
+
+</div>
+<!--end toplogo.html-->
+
+
+<div class="navigationRow">
+<a href="/search~S0"><img src="/screens/startover.gif" alt="Start Over" border="0" /></a>
+<a href="/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1,98,98,B/frameset&FF=Xausten&SORT=D&5,5,?save=b1068701"><img src="/screens/bibexport.gif" alt="Export" border="0" /></a>
+<a href="/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1%2C98%2C98%2CB/marc&FF=Xausten&SORT=D&5%2C5%2C"><img src="/screens/marc_display.gif" alt="MARC Display" border="0" /></a>
+<a href="/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1%2C98%2C98%2CB/browse#anchor_5"><img src="/screens/rtrntb.gif" alt="Return To Browse" border="0" /></a>
+<a href="/search~S0/X?NOSRCH=austen&SORT=D&SUBKEY=austen"><img src="/screens/modify.gif" alt="Modify Search" border="0" /></a>
+<a href="/search~S0/X"><img src="/screens/another.gif" alt="Another Search" border="0" /></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="Xausten&SORT=D">Advanced Keyword: austen
+<option value="+/search~S0/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1,98,98,B/frameset&FF=Xausten&SORT=D&5,5,&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+<noscript>
+<h2>Search history function requires JavaScript</h2>
+</noscript>
+</div>
+<div class="bibSearchtool" align="center">
+<br />
+
+<script language="JavaScript" type="text/JavaScript">
+<!-- Hide the JS
+var savedTag;
+var savedSearch;
+var savedExactSearch = null; 
+
+var savedScope;
+var sortButtonText = null;
+
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "t";
+sortLabels[0] = "Title";
+sortTypes[1] = "a";
+sortLabels[1] = "Author";
+sortTypes[2] = "c";
+sortLabels[2] = "Year";
+sortTypes[3] = "r";
+sortLabels[3] = "Reverse Year";
+sortTypes[4] = "n";
+sortLabels[4] = "Call Number";
+sortTypes[5] = "m";
+sortLabels[5] = "Material Type";
+sortLabels[6] = "System Sorted";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var sortExactBrowseURL = "/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1%2C98%2C98%2CB/frameset&FF=Xausten&SORT=D&5%2C5%2C"
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S0/">
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="X" selected="selected"> Advanced Keyword</option>
+        <option value="t"> Title</option>
+        <option value="a"> Author</option>
+        <option value="d"> Subject</option>
+        <option value="j"> Journal Title</option>
+        <option value="s"> Series</option>
+        <option value="v"> Genre</option>
+        <option value="c"> Call no.</option>
+        <option value="b"> Barcode</option>
+        <option value="i"> ISBN/ISSN</option>
+        <option value="o"> Control no.</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" maxlength="75" value="austen" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script language="JavaScript" type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="DZ" /><input type="hidden" name="extended" value="0" /><input type="submit" name="SUBMIT" value="Search" />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">Limit search to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="Xausten&SORT=D" />
+</div>
+</form>
+<div>
+<form action="/search~S0/X?" method="get" name="spellcheck" id="spellcheck">
+<input type="hidden" name="searchtype" value="X">
+<input type="hidden" name="searcharg" id="searchterms" value="">
+<script language="javascript">
+function spell_submit(tool_type) {
+var i;
+var cnt = 0;
+var searchargs = getObj("searchterms");
+var obj = getObj("spellcheck");
+for (i = 0; i < obj.elements.length; i++ )
+    {
+    if( obj.elements[i].type == "select-one")
+        {
+        if (cnt == 0)
+        {
+        newterms = obj.elements[i].options[obj.elements[i].selectedIndex].value;
+        }
+        else
+        {
+        newterms = newterms + " " + obj.elements[i].options[obj.elements[i].selectedIndex].value;
+        }
+    	cnt++
+    	}
+    }
+searchargs.setAttribute('value',newterms);
+obj.submit();
+}
+function getObj(name) { 
+  if (document.getElementById) {
+      object = document.getElementById(name);
+  } else if (document.all) { 
+      object = document.all[name]; 
+  } else if (document.layers) { 
+      var object = document.layers[name]; 
+ }
+return object; 
+}
+function spell_change() { 
+var brief = getObj("spellcheck_brief");
+var more = getObj("spellcheck_more");
+more.style.display='block';
+brief.style.display='none';
+}
+</script>
+<div id="spellcheck_more" style="display : none;">
+<span class="spellcheckTool">Did you mean <select name="words">
+<option value="Austin">Austin</option>
+<option value="astern">astern</option>
+<option value="fasten">fasten</option>
+<option value="hasten">hasten</option>
+<option value="tauten">tauten</option>
+<option value="austenite">austenite</option>
+<option value="Eastern">Eastern</option>
+<option value="fastens">fastens</option>
+</select>
+? <a href="#" onclick="spell_submit(this);"><img src="/screens/go_but.gif" class="button" border="0" alt="Search"></a> </span></div>
+<div id="spellcheck_brief" style="display : block;">
+<span class="spellcheckTool">Did you mean <a href="#" onclick="spell_submit(this);">Austin</a>? <a href="#" onclick="spell_change();"><spanclass="spellcheckToolMore">more&nbsp;&raquo;</span></a> </span></div></form></div>
+<div  class="bibSearchtoolMessage">       <i>98 results found. </i>Sorted by  <strong>relevance</strong>  | <a href="/search~S0/Xausten&SORT=DX">date</a>  | <a href="/search~S0/Xausten&SORT=AX">title</a> .
+</div>
+</div>
+<br />
+<div class="bibPager">
+
+Result page:
+<a href="/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1%2C98%2C98%2CB/frameset&FF=Xausten&SORT=D&SUBKEY=austen&4%2C4%2C"><img src="/screens/bib_paging_prev.gif" class="button" border="0" alt="Previous Record" /></a>
+<a href="/search~S0?/Xausten&SORT=D/Xausten&SORT=D&SUBKEY=austen/1%2C98%2C98%2CB/frameset&FF=Xausten&SORT=D&SUBKEY=austen&6%2C6%2C"><img src="/screens/bib_paging_next.gif" class="button" border="0" alt="Next Record" /></a>
+</div>
+</td>
+</tr>
+
+<tr>
+<td width="80%">
+
+<style type="text/css">
+<!--
+#rategroup1 { display: inline }
+#rateneed1  { display: none }
+#rategroupMy1 { display: none }
+#ratemy1      { display: inline }
+-->
+</style>
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=a -->
+<td valign="top" width="20%"  class="bibInfoLabel">Author</td>
+<td class="bibInfoData">
+<a href="/search~S0?/aAusten%2C+Jane%2C+1775-1817./aausten+jane+1775+1817/-3,-1,0,B/browse"><font color="ORANGE"><strong>Austen</strong></font>, Jane, 1775-1817.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=t -->
+<td valign="top" width="20%"  class="bibInfoLabel">Title</td>
+<td class="bibInfoData">
+<strong>The Penguin complete novels of Jane <font color="ORANGE"><strong>Austen</strong></font>.</strong></td></tr>
+<tr><!-- next row for fieldtag=p -->
+<td valign="top" width="20%"  class="bibInfoLabel">Publication/Created</td>
+<td class="bibInfoData">
+Harmondsworth, Middlesex, England &#59; New York, N.Y., U.S.A. : Penguin Books, 1983.</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+<br />
+
+<div style="margin:5px; border: 1px solid ">
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="bibItems">
+<tr  class="bibItemsHeader">
+<th width="27%"  class="bibItemsHeader">
+Location
+</th>
+<th width="35%"  class="bibItemsHeader">
+Call No.
+</th>
+<th width="18%"  class="bibItemsHeader">
+Notes
+</th>
+<th width="20%"  class="bibItemsHeader">
+Status
+</th>
+</tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;<a href="/screens/loc_BRK.html">Brooklyn Fiction</a> 
+</td>
+<td width="35%" ><!-- field C -->&nbsp;<a href="/search~S0?/cAUSTEN/causten/-3,-1,,B/browse">AUSTEN</a> <!-- field v --><!-- field # -->&nbsp;</td>
+<td width="18%" ><!-- field ! --><form action="index.php" method="post" >
+	  <input type="submit" id="submit" name="submit" value="Show on a map!" />
+	</form></td>
+<td width="20%" ><!-- field % -->&nbsp;AVAILABLE </td></tr>
+</table>
+</div>
+<br />
+
+
+
+
+<style type="text/css">
+<!--
+#rategroup1 { display: inline }
+#rateneed1  { display: none }
+#rategroupMy1 { display: none }
+#ratemy1      { display: inline }
+-->
+</style>
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=r -->
+<td valign="top" width="20%"  class="bibInfoLabel">Description</td>
+<td class="bibInfoData">
+1336 p. &#59; 21 cm.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Contents</td>
+<td class="bibInfoData">
+Sense and sensibility -- Pride and prejudice -- Mansfield Park -- Emma -- Northanger Abbey -- Persuasion -- Lady Susan.</td></tr>
+<tr><!-- next row for fieldtag=u -->
+<td valign="top" width="20%"  class="bibInfoLabel">Added Title</td>
+<td class="bibInfoData">
+Novels</td></tr>
+<tr><!-- next row for fieldtag=i -->
+<td valign="top" width="20%"  class="bibInfoLabel">ISBN</td>
+<td class="bibInfoData">
+0140090029 (pbk.)</td></tr>
+<tr><!-- next row for fieldtag=o -->
+<td valign="top" width="20%"  class="bibInfoLabel">OCLC #</td>
+<td class="bibInfoData">
+10205661</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+
+
+
+ <!--{bloblinks}-->
+ <!--{imagelinks}-->
+ <!--{artthumb}-->
+ <!--{booking}-->
+
+<div>
+
+</div>
+
+
+
+<div>
+
+</div>
+
+<div class="bibHolds">
+</div>
+
+
+ <!--{ifhasresourcetable}-->
+ <!--{resourcetable}-->
+ <!--{patronreviews}-->
+ <!--{patronreviewsfull}-->
+ <!--{xmlframe}-->
+ <!--{catedit}-->
+ <!--{innreach}-->
+<div class="bibPager">
+ <!--{pager}-->
+</div>
+<div class="navigationRow">
+ <!--{navrow}-->
+ <!--{searchhistory}-->
+</div>
+</td> <!--end first cell-->
+
+<td style="vertical-align:top">
+<div>
+<br />
+<!-- begin table for citation. added by hjp 11-13-08 -->
+<table width="100%" cellspacing="3" cellpadding="0" style="margin-left:3px;margin-top:-6px">
+<tr>
+<td class="bibInfoData">
+<!--examples can be found at http://libx.lib.vt.edu/services/googlebooks/-->
+<!--book jacket-->
+<span id="bookjacket" title="OCLC:*" class="gbs-thumbnail-large gbs-link-to-info">
+</span>
+<p></p>
+<!--preview button-->
+<div class="bibdisplayGBS">
+<span style="display:none"; title="OCLC:*" class="gbs-link-to-info gbs-if-partial-or-full gbs-remove-on-failure">
+<span id="googlebookpreview" style="display:none">
+</span>
+<img src="http://www.google.com/intl/en/googlebooks/images/gbs_preview_button1.gif">
+</span>
+</div> 
+</td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+ <br />
+</td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+<span id="citeoclc"></span>
+ </td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+<span id="author"></span>
+ </td>
+ </tr>
+ 
+<!-- <tr>
+<td class="bibInfoData">
+<span id="otherEditionLinks"></span>
+</td>
+</tr> -->
+
+<tr>
+<td class="bibInfoData">
+<span id="findinworldcat"></span>
+ </td>
+ </tr>
+
+
+<!--persistent link; cutomized in web options -> record dispoays -> ICNO_RECORDLINK;
+<div class="bibInfoData"><img src="/screens/permlink.gif" alt=""/><a id="recordnum" href="%s">Permanent link to this record</a></div>
+div class was "bibRecordLink"
+-->
+<tr>
+<td>
+<div>
+<div class="bibInfoData"><a id="recordnum" href="/record=b1068701~S0">Persistent link to this record</a></div></div>
+</td>
+</tr> 
+
+<tr>
+<td>
+<br/>
+<!--
+<div class="rating">
+Pratt community rating:<br />-->
+ <!--{ratings}-->
+<!--</div>-->
+
+ </td>
+ </tr>
+ 
+</table>
+<!-- end table for citation -->
+<br />
+<!-- AddThis Button BEGIN -->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b9aac6412b4aef0"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b9aac6412b4aef0"></script>
+<!-- AddThis Button END -->
+</div>
+</td>
+
+</tr>
+
+</table>
+<!--end main content table-->
+
+
+
+
+<!-- begin "Cite This" script from IUG list.  Nathan Landis version, modified by Andrew Welch, added by hjp 1-9-09 -->
+<script type="text/javascript">
+	
+		try{
+		var tr = document.getElementsByTagName('TR');
+		var otherlib_oclc = "", otherlib_isbn = "", bib_author="" ;
+		for(i = 0; i < tr.length; i++) {
+			var x=tr[i].getElementsByTagName('TD');
+			if (x.length == 2 && x[0].innerHTML == "OCLC #") {
+				otherlib_oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get oclc;
+				otherlib_oclc = otherlib_oclc.replace(/ /g,""); //take out spaces if any;
+				otherlib_oclc = otherlib_oclc.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "ISBN") {
+				
+				otherlib_isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn field;
+				otherlib_isbn = otherlib_isbn.replace(/^([0-9xX]+[^0-9xX]).*$/igm,"$1"); //strip out non-isbn data;
+				otherlib_isbn = otherlib_isbn.replace(/ /g,""); //take out spaces if any;
+				otherlib_isbn = otherlib_isbn.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "Author") {		// if I have 2 cells one with the author
+			bib_author = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");		// get the author and strip all tags
+			bib_author = bib_author.replace(/[\n\t]/ig,"");				
+			}
+		}
+		
+		//add author info
+		if(bib_author.length > 0){
+			document.getElementById("author").innerHTML = "<a href='http://worldcat.org/identities/find?fullName=" + bib_author+"'> More about the author</a>";
+		}
+		
+		if(otherlib_isbn.length > 0){		
+			//document.getElementById("findinworldcat").innerHTML = "<a href='http://www.worldcat.org/search/" + otherlib_isbn + "'>Find it in Worldcat</a>";
+			document.getElementById("findinworldcat").innerHTML = "<a href='http://www.worldcat.org/search?q=bn:" + otherlib_isbn + "'>Find it in Worldcat</a>";
+		}
+		
+		if (otherlib_oclc.length > 0) {
+			document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + otherlib_oclc + "?page=citation' target='_blank'>Cite this item (from WorldCat)</a>";
+			document.getElementById("bookjacket").innerHTML = otherlib_oclc; //insert google book jacket
+			document.getElementById("googlebookpreview").innerHTML = otherlib_oclc; //insert google book preview button
+			editionlink = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+			//document.getElementById("otherEditionLinks").innerHTML  = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+		
+			}
+			
+		else if (otherlib_isbn.length > 0) {
+			//document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + otherlib_isbn + "&qt=advanced'>Check for citation</a> (click on \"Cite\" in WorldCat)";			
+			document.getElementById("citeoclc").innerHTML = "";			
+		} 
+			
+		else {
+		  	document.getElementById("citeoclc").innerHTML = "No citation available. ";}
+
+	}catch(e) {}
+</script>
+
+
+
+<!--end Cite this-->
+
+<br />
+
+<!-- begin botlogo.html file -->
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 20 April, 2006 -->
+<br />
+<!--Begin the bottom logo table-->
+<!--<div id="botnav"> -->
+<div id="footer">
+	<div class="footerBar">
+<!--		<ul class="botmenuLinks"> -->
+        <ul class="footerTabs white">
+            <li><a href="http://library.pratt.edu/about/">Home</a></li>
+            <li><a class="last" href="http://www.pratt.edu/about_pratt/privacy_policy/">Privacy Policy</a></li>
+            <li><a href="http://library.pratt.edu/about/about/employment/">Employment</a></li>
+            <li><a href="http://library.pratt.edu/about/about/hours/">Hours</a></li>
+            <li><a href="http://library.pratt.edu/about/about/contact/">Contact</a></li>
+            <li><a href="http://library.pratt.edu/about/help/site_map/">Site Map</a></li>
+            <li><a href="http://www.pratt.edu">Pratt Website</a></li>
+        </ul>
+	</div> <!-- close footerBar DIV -->
+	<div id="footerAddress">Pratt Institute Libraries 200 Willoughby Avenue Brooklyn NY 11205
+   
+   	<div align="right">
+            <!-- Site Meter -->
+        <script type="text/javascript" src="http://s35.sitemeter.com/js/counter.js?site=s35prattcat">
+        </script>
+        <noscript>
+        <a href="http://s35.sitemeter.com/stats.asp?site=s35prattcat" target="_top">
+        <img src="http://s35.sitemeter.com/meter.asp?site=s35prattcat" alt="Site Meter" border="0"/></a>
+        </noscript>
+        <!-- Copyright (c)2009 Site Meter -->
+        
+        <!--Google Analytics-->
+       <!--<script type="text/javascript" src="/screens/googleanalytics.js"></script>		 -->
+    </div> 
+    
+   </div>  <!--close footerAddress div-->
+   
+</div> <!-- close footer DIV -->	
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16027662-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!--End the bottom logo table-->
+<!-- end botlogo.html file -->
+
+</body>
+</html>
+<script type="text/javascript" src="/screens/gbsclasses.js"></script>
+<script type="text/javascript" src="/screens/harvester.js"></script>
+<script type="text/javascript" src="/screens/manipulator.js"></script>
+
+<!--this is customized <screens/bib_display.html>-->
+

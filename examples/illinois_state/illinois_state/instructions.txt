@@ -1,0 +1,17 @@
+instructions.txt
+
+For Sysadmin:
+All the files here can be uploaded to any publicly accessible server w/ php installed. 
+.htaccess and php.ini files are included, but have development settings. Most settings can 
+(and probably should) be locked down a bit more. The only thing to note is that lib_http
+requires curl_exe to be enabled. Once the files are uploaded, just send Anita the URL.
+
+
+For Anita:
+
+Just insert the URL from systems into the spaces indicated below and insert the code into a widget in a test version of the EDS:
+	 
+<script type="text/javascript" src="[insert URL from sysadmin]/jquery-1.11.1.js"></script>			
+	 <script type="text/javascript" src="[insert URL from sysadmin]/linx.js"></script>
+	 <link rel="stylesheet" type="text/css" href="[insert URL from sysadmin]/maps.css" media="All">
+	 <div id="output"></div>

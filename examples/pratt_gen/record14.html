@@ -1,0 +1,1018 @@
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 21 November, 2006 -->
+<!--main content table-->
+<table width="100%">
+<tr>
+<td colspan="2">
+<html   dir="LTR">
+<head>
+<title>Pratt Institute                                                               </title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/features.js"></script>
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(6000000, "/");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="6000;URL=/" />
+</noscript>
+
+<script type="text/javascript" src="/screens/bibdisplay.js"></script><script type="text/javascript" src="/screens/brief.js"></script><!--[if lte IE 8]><link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" /><![endif]-->
+</head>
+<body bgcolor="#FFFFFF" >
+<!-- begin toplogo.html file -->
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 20 April, 2006 -->
+<div id="topLogohead">
+
+<div id="topID">
+	<div align="right">
+		<ul>
+			<li><a href="http://library.pratt.edu/">Library Home</a></li>
+			<li class="breaker">|</li>
+			<li><a href="/search">New Search</a></li>
+			<li class="breaker">|</li>
+			<li><a href="/patroninfo">My Account</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="float:left;">
+	<div id="topLogoImage"><a href="http://library.pratt.edu/"><img src="/screens/banner.gif" width="800" height="70" border="0" alt="Innovative Interfaces, Inc." /></a></div>
+</div>
+
+
+<div style="clear:both;"></div>
+
+</div>
+<!--end toplogo.html-->
+
+
+<div class="navigationRow">
+<a href="/search~S0"><img src="/screens/startover.gif" alt="Start Over" border="0" /></a>
+<a href="/search~S0?/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1,1125,1125,B/frameset&FF=Xcamera&SORT=D&14,14,?save=b1200208"><img src="/screens/bibexport.gif" alt="Export" border="0" /></a>
+<a href="/search~S0?/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1%2C1125%2C1125%2CB/marc&FF=Xcamera&SORT=D&14%2C14%2C"><img src="/screens/marc_display.gif" alt="MARC Display" border="0" /></a>
+<a href="/search~S0?/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1%2C1125%2C1125%2CB/browse#anchor_14"><img src="/screens/rtrntb.gif" alt="Return To Browse" border="0" /></a>
+<a href="/search~S0/X?NOSRCH=camera&SORT=D&SUBKEY=camera"><img src="/screens/modify.gif" alt="Modify Search" border="0" /></a>
+<a href="/search~S0?/X?d%3A%28modern+and+dance%29&SORT=D"><img src="/screens/showsim.gif" alt="Show Similar Items" border="0" /></a>
+<a href="/search~S0/X"><img src="/screens/another.gif" alt="Another Search" border="0" /></a>
+<select name=HISTORY onChange="onSelectChange(this, '~S0')"><option value="">(Search History)</option>
+<OPTION VALUE="Xcamera&SORT=D">Advanced Keyword: camera
+<option value="+/search~S0/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1,1125,1125,B/frameset&FF=Xcamera&SORT=D&14,14,&clear_history">(Clear Search History)</option>
+<option value="+/">(End Search Session)</option>
+</select>
+<noscript>
+<h2>Search history function requires JavaScript.</h2>
+</noscript>
+</div>
+<div class="bibSearchtool" align="center">
+<br />
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+var savedScope;
+var savedTag;
+var savedSearch;
+var sortButtonText = null;
+var savedExactSearch = null;
+var sortButtonEvent = null;
+var sortExactBrowseURL = null;
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "t";
+sortLabels[0] = "Title";
+sortTypes[1] = "a";
+sortLabels[1] = "Author";
+sortTypes[2] = "c";
+sortLabels[2] = "Year";
+sortTypes[3] = "r";
+sortLabels[3] = "Reverse Year";
+sortTypes[4] = "n";
+sortLabels[4] = "Call Number";
+sortTypes[5] = "m";
+sortLabels[5] = "Material Type";
+sortLabels[6] = "System Sorted";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S0/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="X" selected="selected"> Advanced Keyword</option>
+        <option value="t"> Title</option>
+        <option value="a"> Author</option>
+        <option value="d"> Subject</option>
+        <option value="j"> Journal Title</option>
+        <option value="s"> Series</option>
+        <option value="v"> Genre</option>
+        <option value="c"> Call no.</option>
+        <option value="b"> Barcode</option>
+        <option value="i"> ISBN/ISSN</option>
+        <option value="o"> Control no.</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="camera" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="DZ" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="availLimMessage">Limit search to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="Xcamera&SORT=D" />
+</div>
+</form>
+<div>
+</div>
+<div  class="bibSearchtoolMessage">       <i>1125 results found. </i>Sorted by  <strong>relevance</strong>  | <a href="/search~S0/Xcamera&SORT=DX">date</a>  | <a href="/search~S0/Xcamera&SORT=AX">title</a> .
+</div>
+</div>
+<br />
+<div class="bibPager">
+
+Result page:
+<a href="/search~S0?/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1%2C1125%2C1125%2CB/frameset&FF=Xcamera&SORT=D&SUBKEY=camera&13%2C13%2C"><img src="/screens/bib_paging_prev.gif" class="button" border="0" alt="Previous Record" /></a>
+<a href="/search~S0?/Xcamera&SORT=D/Xcamera&SORT=D&SUBKEY=camera/1%2C1125%2C1125%2CB/frameset&FF=Xcamera&SORT=D&SUBKEY=camera&15%2C15%2C"><img src="/screens/bib_paging_next.gif" class="button" border="0" alt="Next Record" /></a>
+</div>
+</td>
+</tr>
+
+<tr>
+<td width="80%">
+
+<style type="text/css">
+<!--
+#rategroup-48 { display: inline }
+#rateneed-48  { display: none }
+#rategroupMy-48 { display: none }
+#ratemy-48      { display: inline }
+#rategroup-47 { display: inline }
+#rateneed-47  { display: none }
+#rategroupMy-47 { display: none }
+#ratemy-47      { display: inline }
+#rategroup-46 { display: inline }
+#rateneed-46  { display: none }
+#rategroupMy-46 { display: none }
+#ratemy-46      { display: inline }
+#rategroup-45 { display: inline }
+#rateneed-45  { display: none }
+#rategroupMy-45 { display: none }
+#ratemy-45      { display: inline }
+#rategroup-44 { display: inline }
+#rateneed-44  { display: none }
+#rategroupMy-44 { display: none }
+#ratemy-44      { display: inline }
+#rategroup-43 { display: inline }
+#rateneed-43  { display: none }
+#rategroupMy-43 { display: none }
+#ratemy-43      { display: inline }
+#rategroup-42 { display: inline }
+#rateneed-42  { display: none }
+#rategroupMy-42 { display: none }
+#ratemy-42      { display: inline }
+#rategroup-41 { display: inline }
+#rateneed-41  { display: none }
+#rategroupMy-41 { display: none }
+#ratemy-41      { display: inline }
+#rategroup-40 { display: inline }
+#rateneed-40  { display: none }
+#rategroupMy-40 { display: none }
+#ratemy-40      { display: inline }
+#rategroup-39 { display: inline }
+#rateneed-39  { display: none }
+#rategroupMy-39 { display: none }
+#ratemy-39      { display: inline }
+#rategroup-38 { display: inline }
+#rateneed-38  { display: none }
+#rategroupMy-38 { display: none }
+#ratemy-38      { display: inline }
+#rategroup-37 { display: inline }
+#rateneed-37  { display: none }
+#rategroupMy-37 { display: none }
+#ratemy-37      { display: inline }
+#rategroup-36 { display: inline }
+#rateneed-36  { display: none }
+#rategroupMy-36 { display: none }
+#ratemy-36      { display: inline }
+#rategroup-35 { display: inline }
+#rateneed-35  { display: none }
+#rategroupMy-35 { display: none }
+#ratemy-35      { display: inline }
+#rategroup-34 { display: inline }
+#rateneed-34  { display: none }
+#rategroupMy-34 { display: none }
+#ratemy-34      { display: inline }
+#rategroup-33 { display: inline }
+#rateneed-33  { display: none }
+#rategroupMy-33 { display: none }
+#ratemy-33      { display: inline }
+#rategroup-32 { display: inline }
+#rateneed-32  { display: none }
+#rategroupMy-32 { display: none }
+#ratemy-32      { display: inline }
+#rategroup-31 { display: inline }
+#rateneed-31  { display: none }
+#rategroupMy-31 { display: none }
+#ratemy-31      { display: inline }
+#rategroup-30 { display: inline }
+#rateneed-30  { display: none }
+#rategroupMy-30 { display: none }
+#ratemy-30      { display: inline }
+#rategroup-29 { display: inline }
+#rateneed-29  { display: none }
+#rategroupMy-29 { display: none }
+#ratemy-29      { display: inline }
+#rategroup-28 { display: inline }
+#rateneed-28  { display: none }
+#rategroupMy-28 { display: none }
+#ratemy-28      { display: inline }
+#rategroup-27 { display: inline }
+#rateneed-27  { display: none }
+#rategroupMy-27 { display: none }
+#ratemy-27      { display: inline }
+#rategroup-26 { display: inline }
+#rateneed-26  { display: none }
+#rategroupMy-26 { display: none }
+#ratemy-26      { display: inline }
+#rategroup-25 { display: inline }
+#rateneed-25  { display: none }
+#rategroupMy-25 { display: none }
+#ratemy-25      { display: inline }
+#rategroup-24 { display: inline }
+#rateneed-24  { display: none }
+#rategroupMy-24 { display: none }
+#ratemy-24      { display: inline }
+#rategroup-23 { display: inline }
+#rateneed-23  { display: none }
+#rategroupMy-23 { display: none }
+#ratemy-23      { display: inline }
+#rategroup-22 { display: inline }
+#rateneed-22  { display: none }
+#rategroupMy-22 { display: none }
+#ratemy-22      { display: inline }
+#rategroup-21 { display: inline }
+#rateneed-21  { display: none }
+#rategroupMy-21 { display: none }
+#ratemy-21      { display: inline }
+#rategroup-20 { display: inline }
+#rateneed-20  { display: none }
+#rategroupMy-20 { display: none }
+#ratemy-20      { display: inline }
+#rategroup-19 { display: inline }
+#rateneed-19  { display: none }
+#rategroupMy-19 { display: none }
+#ratemy-19      { display: inline }
+#rategroup-18 { display: inline }
+#rateneed-18  { display: none }
+#rategroupMy-18 { display: none }
+#ratemy-18      { display: inline }
+#rategroup-17 { display: inline }
+#rateneed-17  { display: none }
+#rategroupMy-17 { display: none }
+#ratemy-17      { display: inline }
+#rategroup-16 { display: inline }
+#rateneed-16  { display: none }
+#rategroupMy-16 { display: none }
+#ratemy-16      { display: inline }
+#rategroup-15 { display: inline }
+#rateneed-15  { display: none }
+#rategroupMy-15 { display: none }
+#ratemy-15      { display: inline }
+#rategroup-14 { display: inline }
+#rateneed-14  { display: none }
+#rategroupMy-14 { display: none }
+#ratemy-14      { display: inline }
+#rategroup-13 { display: inline }
+#rateneed-13  { display: none }
+#rategroupMy-13 { display: none }
+#ratemy-13      { display: inline }
+#rategroup-12 { display: inline }
+#rateneed-12  { display: none }
+#rategroupMy-12 { display: none }
+#ratemy-12      { display: inline }
+#rategroup-11 { display: inline }
+#rateneed-11  { display: none }
+#rategroupMy-11 { display: none }
+#ratemy-11      { display: inline }
+#rategroup-10 { display: inline }
+#rateneed-10  { display: none }
+#rategroupMy-10 { display: none }
+#ratemy-10      { display: inline }
+#rategroup-9 { display: inline }
+#rateneed-9  { display: none }
+#rategroupMy-9 { display: none }
+#ratemy-9      { display: inline }
+#rategroup-8 { display: inline }
+#rateneed-8  { display: none }
+#rategroupMy-8 { display: none }
+#ratemy-8      { display: inline }
+#rategroup-7 { display: inline }
+#rateneed-7  { display: none }
+#rategroupMy-7 { display: none }
+#ratemy-7      { display: inline }
+#rategroup-6 { display: inline }
+#rateneed-6  { display: none }
+#rategroupMy-6 { display: none }
+#ratemy-6      { display: inline }
+#rategroup-5 { display: inline }
+#rateneed-5  { display: none }
+#rategroupMy-5 { display: none }
+#ratemy-5      { display: inline }
+#rategroup-4 { display: inline }
+#rateneed-4  { display: none }
+#rategroupMy-4 { display: none }
+#ratemy-4      { display: inline }
+#rategroup-3 { display: inline }
+#rateneed-3  { display: none }
+#rategroupMy-3 { display: none }
+#ratemy-3      { display: inline }
+#rategroup-2 { display: inline }
+#rateneed-2  { display: none }
+#rategroupMy-2 { display: none }
+#ratemy-2      { display: inline }
+#rategroup-1 { display: inline }
+#rateneed-1  { display: none }
+#rategroupMy-1 { display: none }
+#ratemy-1      { display: inline }
+#rategroup0 { display: inline }
+#rateneed0  { display: none }
+#rategroupMy0 { display: none }
+#ratemy0      { display: inline }
+#rategroup1 { display: inline }
+#rateneed1  { display: none }
+#rategroupMy1 { display: none }
+#ratemy1      { display: inline }
+-->
+</style>
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1" cellpadding="2"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=t -->
+<td valign="top" width="20%"  class="bibInfoLabel">Title</td>
+<td class="bibInfoData">
+<strong>Dance for <font color="ORANGE"><strong>camera</strong></font>. Anthology 1 [electronic resource].</strong></td></tr>
+<tr><!-- next row for fieldtag=p -->
+<td valign="top" width="20%"  class="bibInfoLabel">Publication/Created</td>
+<td class="bibInfoData">
+[Oregon, Wis.] : Artworks Video, [2006?]</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+<br />
+
+<div style="margin:5px; border: 1px solid ">
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="bibItems">
+<tr  class="bibItemsHeader">
+<th width="27%"  class="bibItemsHeader">
+Location
+</th>
+<th width="35%"  class="bibItemsHeader">
+Call No.
+</th>
+<th width="18%"  class="bibItemsHeader">
+Notes
+</th>
+<th width="20%"  class="bibItemsHeader">
+Status
+</th>
+</tr>
+<tr  class="bibItemsEntry">
+
+<td width="27%" ><!-- field 1 -->&nbsp;World Wide Web 
+</td>
+<td width="35%" ><!-- field C --><!-- field v --><!-- field # -->&nbsp;</td>
+<td width="18%" ><!-- field ! -->&nbsp;SEE LINK BELOW</td>
+<td width="20%" ><!-- field % -->&nbsp;ONLINE </td></tr>
+</table>
+</div>
+<br />
+
+
+
+
+<style type="text/css">
+<!--
+#rategroup-48 { display: inline }
+#rateneed-48  { display: none }
+#rategroupMy-48 { display: none }
+#ratemy-48      { display: inline }
+#rategroup-47 { display: inline }
+#rateneed-47  { display: none }
+#rategroupMy-47 { display: none }
+#ratemy-47      { display: inline }
+#rategroup-46 { display: inline }
+#rateneed-46  { display: none }
+#rategroupMy-46 { display: none }
+#ratemy-46      { display: inline }
+#rategroup-45 { display: inline }
+#rateneed-45  { display: none }
+#rategroupMy-45 { display: none }
+#ratemy-45      { display: inline }
+#rategroup-44 { display: inline }
+#rateneed-44  { display: none }
+#rategroupMy-44 { display: none }
+#ratemy-44      { display: inline }
+#rategroup-43 { display: inline }
+#rateneed-43  { display: none }
+#rategroupMy-43 { display: none }
+#ratemy-43      { display: inline }
+#rategroup-42 { display: inline }
+#rateneed-42  { display: none }
+#rategroupMy-42 { display: none }
+#ratemy-42      { display: inline }
+#rategroup-41 { display: inline }
+#rateneed-41  { display: none }
+#rategroupMy-41 { display: none }
+#ratemy-41      { display: inline }
+#rategroup-40 { display: inline }
+#rateneed-40  { display: none }
+#rategroupMy-40 { display: none }
+#ratemy-40      { display: inline }
+#rategroup-39 { display: inline }
+#rateneed-39  { display: none }
+#rategroupMy-39 { display: none }
+#ratemy-39      { display: inline }
+#rategroup-38 { display: inline }
+#rateneed-38  { display: none }
+#rategroupMy-38 { display: none }
+#ratemy-38      { display: inline }
+#rategroup-37 { display: inline }
+#rateneed-37  { display: none }
+#rategroupMy-37 { display: none }
+#ratemy-37      { display: inline }
+#rategroup-36 { display: inline }
+#rateneed-36  { display: none }
+#rategroupMy-36 { display: none }
+#ratemy-36      { display: inline }
+#rategroup-35 { display: inline }
+#rateneed-35  { display: none }
+#rategroupMy-35 { display: none }
+#ratemy-35      { display: inline }
+#rategroup-34 { display: inline }
+#rateneed-34  { display: none }
+#rategroupMy-34 { display: none }
+#ratemy-34      { display: inline }
+#rategroup-33 { display: inline }
+#rateneed-33  { display: none }
+#rategroupMy-33 { display: none }
+#ratemy-33      { display: inline }
+#rategroup-32 { display: inline }
+#rateneed-32  { display: none }
+#rategroupMy-32 { display: none }
+#ratemy-32      { display: inline }
+#rategroup-31 { display: inline }
+#rateneed-31  { display: none }
+#rategroupMy-31 { display: none }
+#ratemy-31      { display: inline }
+#rategroup-30 { display: inline }
+#rateneed-30  { display: none }
+#rategroupMy-30 { display: none }
+#ratemy-30      { display: inline }
+#rategroup-29 { display: inline }
+#rateneed-29  { display: none }
+#rategroupMy-29 { display: none }
+#ratemy-29      { display: inline }
+#rategroup-28 { display: inline }
+#rateneed-28  { display: none }
+#rategroupMy-28 { display: none }
+#ratemy-28      { display: inline }
+#rategroup-27 { display: inline }
+#rateneed-27  { display: none }
+#rategroupMy-27 { display: none }
+#ratemy-27      { display: inline }
+#rategroup-26 { display: inline }
+#rateneed-26  { display: none }
+#rategroupMy-26 { display: none }
+#ratemy-26      { display: inline }
+#rategroup-25 { display: inline }
+#rateneed-25  { display: none }
+#rategroupMy-25 { display: none }
+#ratemy-25      { display: inline }
+#rategroup-24 { display: inline }
+#rateneed-24  { display: none }
+#rategroupMy-24 { display: none }
+#ratemy-24      { display: inline }
+#rategroup-23 { display: inline }
+#rateneed-23  { display: none }
+#rategroupMy-23 { display: none }
+#ratemy-23      { display: inline }
+#rategroup-22 { display: inline }
+#rateneed-22  { display: none }
+#rategroupMy-22 { display: none }
+#ratemy-22      { display: inline }
+#rategroup-21 { display: inline }
+#rateneed-21  { display: none }
+#rategroupMy-21 { display: none }
+#ratemy-21      { display: inline }
+#rategroup-20 { display: inline }
+#rateneed-20  { display: none }
+#rategroupMy-20 { display: none }
+#ratemy-20      { display: inline }
+#rategroup-19 { display: inline }
+#rateneed-19  { display: none }
+#rategroupMy-19 { display: none }
+#ratemy-19      { display: inline }
+#rategroup-18 { display: inline }
+#rateneed-18  { display: none }
+#rategroupMy-18 { display: none }
+#ratemy-18      { display: inline }
+#rategroup-17 { display: inline }
+#rateneed-17  { display: none }
+#rategroupMy-17 { display: none }
+#ratemy-17      { display: inline }
+#rategroup-16 { display: inline }
+#rateneed-16  { display: none }
+#rategroupMy-16 { display: none }
+#ratemy-16      { display: inline }
+#rategroup-15 { display: inline }
+#rateneed-15  { display: none }
+#rategroupMy-15 { display: none }
+#ratemy-15      { display: inline }
+#rategroup-14 { display: inline }
+#rateneed-14  { display: none }
+#rategroupMy-14 { display: none }
+#ratemy-14      { display: inline }
+#rategroup-13 { display: inline }
+#rateneed-13  { display: none }
+#rategroupMy-13 { display: none }
+#ratemy-13      { display: inline }
+#rategroup-12 { display: inline }
+#rateneed-12  { display: none }
+#rategroupMy-12 { display: none }
+#ratemy-12      { display: inline }
+#rategroup-11 { display: inline }
+#rateneed-11  { display: none }
+#rategroupMy-11 { display: none }
+#ratemy-11      { display: inline }
+#rategroup-10 { display: inline }
+#rateneed-10  { display: none }
+#rategroupMy-10 { display: none }
+#ratemy-10      { display: inline }
+#rategroup-9 { display: inline }
+#rateneed-9  { display: none }
+#rategroupMy-9 { display: none }
+#ratemy-9      { display: inline }
+#rategroup-8 { display: inline }
+#rateneed-8  { display: none }
+#rategroupMy-8 { display: none }
+#ratemy-8      { display: inline }
+#rategroup-7 { display: inline }
+#rateneed-7  { display: none }
+#rategroupMy-7 { display: none }
+#ratemy-7      { display: inline }
+#rategroup-6 { display: inline }
+#rateneed-6  { display: none }
+#rategroupMy-6 { display: none }
+#ratemy-6      { display: inline }
+#rategroup-5 { display: inline }
+#rateneed-5  { display: none }
+#rategroupMy-5 { display: none }
+#ratemy-5      { display: inline }
+#rategroup-4 { display: inline }
+#rateneed-4  { display: none }
+#rategroupMy-4 { display: none }
+#ratemy-4      { display: inline }
+#rategroup-3 { display: inline }
+#rateneed-3  { display: none }
+#rategroupMy-3 { display: none }
+#ratemy-3      { display: inline }
+#rategroup-2 { display: inline }
+#rateneed-2  { display: none }
+#rategroupMy-2 { display: none }
+#ratemy-2      { display: inline }
+#rategroup-1 { display: inline }
+#rateneed-1  { display: none }
+#rategroupMy-1 { display: none }
+#ratemy-1      { display: inline }
+#rategroup0 { display: inline }
+#rateneed0  { display: none }
+#rategroupMy0 { display: none }
+#ratemy0      { display: inline }
+#rategroup1 { display: inline }
+#rateneed1  { display: none }
+#rategroupMy1 { display: none }
+#ratemy1      { display: inline }
+-->
+</style>
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1" cellpadding="2"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=r -->
+<td valign="top" width="20%"  class="bibInfoLabel">Description</td>
+<td class="bibInfoData">
+1 online resource (1 electronic resource (36 min.))</td></tr>
+<tr><!-- next row for fieldtag=s -->
+<td valign="top" width="20%"  class="bibInfoLabel">Series</td>
+<td class="bibInfoData">
+<a href="/search~S0?/sDance+in+video./sdance+in+video/-3,-1,0,B/browse">Dance in video.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Note</td>
+<td class="bibInfoData">
+Works by Milla Moilanen incorporate computer animation.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Contents</td>
+<td class="bibInfoData">
+A dancer drops out of the sky (ca. 2. min.) -- What I did on my nervous breakdown (2002, ca. 2 min.) -- Scale (1996, ca. 8 min.) -- Deep (1995) -- Only you (1987, ca. 9 min.) -- Beach dreams (2000, ca 9. min.) -- The wedding (2000, ca. 7 min.).</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Summary</td>
+<td class="bibInfoData">
+A dancer drops out of the sky: digitally generated choreography allows the dancer to slide from Italy via Sydney to Poland and back into the clouds.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+What I did on my nervous breakdown: a lateral look at the usual start of term school report on fun activities during the break(down).</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Beach dreams: follows three women as they stroll, lounge, and exult in a day at the beach.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Only you: performance by six dancers who seamlessly alternate between modern dance and ballet.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+The wedding: Spans the wedding day of a hip hop dancer and his flamenco bride, as they make their way from separate spaces to the altar, fusing two styles and two lives.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Reproduction</td>
+<td class="bibInfoData">
+Electronic reproduction. Alexandria, VA : Alexander Street Press, 2011. (Dance in video). Available via World Wide Web.</td></tr>
+<tr><!-- next row for fieldtag=d -->
+<td valign="top" width="20%"  class="bibInfoLabel">Subject</td>
+<td class="bibInfoData">
+<a href="/search~S0?/dModern+dance./dmodern+dance/-3,-1,0,B/browse">Modern dance.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td valign="top" width="20%"  class="bibInfoLabel">Added Author</td>
+<td class="bibInfoData">
+<a href="/search~S0?/aPearlman%2C+Karen./apearlman+karen/-3,-1,0,B/browse">Pearlman, Karen.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aMoilanen%2C+Milla%2C+1964-/amoilanen+milla+1964/-3,-1,0,B/browse">Moilanen, Milla, 1964-</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aMilwe%2C+Liz./amilwe+liz/-3,-1,0,B/browse">Milwe, Liz.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aBrownstein%2C+David%2C+1957-/abrownstein+david+1957/-3,-1,0,B/browse">Brownstein, David, 1957-</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aAllen%2C+Richard+James%2C+1960-/aallen+richard+james+1960/-3,-1,0,B/browse">Allen, Richard James, 1960-</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aAaltokoski%2C+Alpo%2C+1958-/aaaltokoski+alpo+1958/-3,-1,0,B/browse">Aaltokoski, Alpo, 1958-</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aG%2C+Roger+%28Roger+Green%29%2C+1958-/ag+roger+roger+green+1958/-3,-1,0,B/browse">G, Roger (Roger Green), 1958-</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aPhysical+TV+Company./aphysical+tv+company/-3,-1,0,B/browse">Physical TV Company.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aKroma+Productions./akroma+productions/-3,-1,0,B/browse">Kroma Productions.</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=b -->
+<td></td>
+<td class="bibInfoData">
+<a href="/search~S0?/aArtworks+Video+%28Firm%29/aartworks+video+firm/-3,-1,0,B/browse">Artworks Video (Firm)</a>
+
+</td></tr>
+<tr><!-- next row for fieldtag=w -->
+<td valign="top" width="20%"  class="bibInfoLabel">Other Form:</td>
+<td class="bibInfoData">
+Original publisher catalog number AW-37</td></tr>
+<tr><!-- next row for fieldtag=w -->
+<td></td>
+<td class="bibInfoData">
+Original (OCoLC)70892597</td></tr>
+<tr><!-- next row for fieldtag=o -->
+<td valign="top" width="20%"  class="bibInfoLabel">OCLC #</td>
+<td class="bibInfoData">
+652414751</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+
+
+
+
+ <!--{bloblinks}-->
+ <!--{imagelinks}-->
+ <!--{artthumb}-->
+ <!--{booking}-->
+
+<div>
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="bibLinks">
+<tr><th>
+Connect to</th></tr>
+<tr align="center">
+<td >
+<a href="http://ezproxy.pratt.edu:2048/login?url=http://www.aspresolver.com/aspresolver.asp?DAIV;657038">Access on Alexander Street Press website</a><br />
+
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div>
+
+</div>
+
+<div class="bibHolds">
+</div>
+
+
+ <!--{ifhasresourcetable}-->
+ <!--{resourcetable}-->
+ <!--{patronreviews}-->
+ <!--{patronreviewsfull}-->
+ <!--{xmlframe}-->
+ <!--{catedit}-->
+ <!--{innreach}-->
+<div class="bibPager">
+ <!--{pager}-->
+</div>
+<div class="navigationRow">
+ <!--{navrow}-->
+ <!--{searchhistory}-->
+</div>
+</td> <!--end first cell-->
+
+<td style="vertical-align:top">
+<div>
+<br />
+<!-- begin table for citation. added by hjp 11-13-08 -->
+<table width="100%" cellspacing="3" cellpadding="0" style="margin-left:3px;margin-top:-6px">
+<tr>
+<td>
+<form action="index.php" method="post" >
+          <input type="submit" id="submit" name="submit" 
+          value="Find on the shelf" />
+</form>
+</td>
+<tr>
+<td class="bibInfoData">
+<!--examples can be found at http://libx.lib.vt.edu/services/googlebooks/-->
+<!--book jacket-->
+<span id="bookjacket" title="OCLC:*" class="gbs-thumbnail-large gbs-link-to-info">
+</span>
+<p></p>
+<!--preview button-->
+<div class="bibdisplayGBS">
+<span style="display:none"; title="OCLC:*" class="gbs-link-to-info gbs-if-partial-or-full gbs-remove-on-failure">
+<span id="googlebookpreview" style="display:none">
+</span>
+<img src="http://www.google.com/intl/en/googlebooks/images/gbs_preview_button1.gif">
+</span>
+</div> 
+</td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+ <br />
+</td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+<span id="citeoclc"></span>
+ </td>
+ </tr>
+ 
+<tr>
+<td class="bibInfoData">
+<span id="author"></span>
+ </td>
+ </tr>
+ 
+<!-- <tr>
+<td class="bibInfoData">
+<span id="otherEditionLinks"></span>
+</td>
+</tr> -->
+
+<tr>
+<td class="bibInfoData">
+<span id="findinworldcat"></span>
+ </td>
+ </tr>
+
+
+<!--persistent link; cutomized in web options -> record dispoays -> ICNO_RECORDLINK;
+<div class="bibInfoData"><img src="/screens/permlink.gif" alt=""/><a id="recordnum" href="%s">Permanent link to this record</a></div>
+div class was "bibRecordLink"
+-->
+<tr>
+<td>
+<div>
+<div class="bibInfoData"><a id="recordnum" href="/record=b1200208~S0">Persistent link to this record</a></div></div>
+</td>
+</tr> 
+
+<tr>
+<td>
+<br/>
+<!--
+<div class="rating">
+Pratt community rating:<br />-->
+ <!--{ratings}-->
+<!--</div>-->
+
+ </td>
+ </tr>
+ 
+</table>
+<!-- end table for citation -->
+<br />
+<!-- AddThis Button BEGIN -->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b9aac6412b4aef0"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b9aac6412b4aef0"></script>
+<!-- AddThis Button END -->
+</div>
+</td>
+
+</tr>
+
+</table>
+<!--end main content table-->
+
+
+
+
+<!-- begin "Cite This" script from IUG list.  Nathan Landis version, modified by Andrew Welch, added by hjp 1-9-09 -->
+<script type="text/javascript">
+	
+		try{
+		var tr = document.getElementsByTagName('TR');
+		var otherlib_oclc = "", otherlib_isbn = "", bib_author="" ;
+		for(i = 0; i < tr.length; i++) {
+			var x=tr[i].getElementsByTagName('TD');
+			if (x.length == 2 && x[0].innerHTML == "OCLC #") {
+				otherlib_oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get oclc;
+				otherlib_oclc = otherlib_oclc.replace(/ /g,""); //take out spaces if any;
+				otherlib_oclc = otherlib_oclc.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "ISBN") {
+				
+				otherlib_isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn field;
+				otherlib_isbn = otherlib_isbn.replace(/^([0-9xX]+[^0-9xX]).*$/igm,"$1"); //strip out non-isbn data;
+				otherlib_isbn = otherlib_isbn.replace(/ /g,""); //take out spaces if any;
+				otherlib_isbn = otherlib_isbn.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "Author") {		// if I have 2 cells one with the author
+			bib_author = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");		// get the author and strip all tags
+			bib_author = bib_author.replace(/[\n\t]/ig,"");				
+			}
+		}
+		
+		//add author info
+		if(bib_author.length > 0){
+			document.getElementById("author").innerHTML = "<a href='http://worldcat.org/identities/find?fullName=" + bib_author+"'> More about the author</a>";
+		}
+		
+		if(otherlib_isbn.length > 0){		
+			//document.getElementById("findinworldcat").innerHTML = "<a href='http://www.worldcat.org/search/" + otherlib_isbn + "'>Find it in Worldcat</a>";
+			document.getElementById("findinworldcat").innerHTML = "<a href='http://www.worldcat.org/search?q=bn:" + otherlib_isbn + "'>Find it in Worldcat</a>";
+		}
+		
+		if (otherlib_oclc.length > 0) {
+			document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + otherlib_oclc + "?page=citation' target='_blank'>Cite this item (from WorldCat)</a>";
+			document.getElementById("bookjacket").innerHTML = otherlib_oclc; //insert google book jacket
+			document.getElementById("googlebookpreview").innerHTML = otherlib_oclc; //insert google book preview button
+			editionlink = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+			//document.getElementById("otherEditionLinks").innerHTML  = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+		
+			}
+			
+		else if (otherlib_isbn.length > 0) {
+			//document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + otherlib_isbn + "&qt=advanced'>Check for citation</a> (click on \"Cite\" in WorldCat)";			
+			document.getElementById("citeoclc").innerHTML = "";			
+		} 
+			
+		else {
+		  	document.getElementById("citeoclc").innerHTML = "No citation available. ";}
+
+	}catch(e) {}
+</script>
+
+
+
+<!--end Cite this-->
+
+<br />
+
+<!-- begin botlogo.html file -->
+<!-- 2006 WebPAC Pro Version, set from 21 November, 2006 -->
+<!-- This file last changed: 20 April, 2006 -->
+<br />
+<!--Begin the bottom logo table-->
+<!--<div id="botnav"> -->
+<div id="footer">
+	<div class="footerBar">
+<!--		<ul class="botmenuLinks"> -->
+        <ul class="footerTabs white">
+            <li><a href="http://library.pratt.edu/about/">Home</a></li>
+            <li><a class="last" href="http://www.pratt.edu/about_pratt/privacy_policy/">Privacy Policy</a></li>
+            <li><a href="http://library.pratt.edu/about/about/employment/">Employment</a></li>
+            <li><a href="http://library.pratt.edu/about/about/hours/">Hours</a></li>
+            <li><a href="http://library.pratt.edu/about/about/contact/">Contact</a></li>
+            <li><a href="http://library.pratt.edu/about/help/site_map/">Site Map</a></li>
+            <li><a href="http://www.pratt.edu">Pratt Website</a></li>
+        </ul>
+	</div> <!-- close footerBar DIV -->
+	<div id="footerAddress">Pratt Institute Libraries 200 Willoughby Avenue Brooklyn NY 11205
+   
+   	<div align="right">
+            <!-- Site Meter -->
+        <script type="text/javascript" src="http://s35.sitemeter.com/js/counter.js?site=s35prattcat">
+        </script>
+        <noscript>
+        <a href="http://s35.sitemeter.com/stats.asp?site=s35prattcat" target="_top">
+        <img src="http://s35.sitemeter.com/meter.asp?site=s35prattcat" alt="Site Meter" border="0"/></a>
+        </noscript>
+        <!-- Copyright (c)2009 Site Meter -->
+        
+        <!--Google Analytics-->
+       <!--<script type="text/javascript" src="/screens/googleanalytics.js"></script>		 -->
+    </div> 
+    
+   </div>  <!--close footerAddress div-->
+   
+</div> <!-- close footer DIV -->	
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16027662-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!--End the bottom logo table-->
+<!-- end botlogo.html file -->
+
+</body>
+</html>
+<script type="text/javascript" src="/screens/gbsclasses.js"></script>
+<script type="text/javascript" src="/screens/harvester.js"></script>
+<script type="text/javascript" src="/screens/manipulator.js"></script>
+
+<!--this is customized <screens/bib_display.html>-->

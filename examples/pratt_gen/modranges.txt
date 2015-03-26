@@ -1,0 +1,551 @@
+sep=\t	Library Name	Location Name	Call # Begin	Call # End	Image file	Sub-location name	Note display text
+!	Brooklyn	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_AB	PERIODICALS_AN	shelf194.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_AN	PERIODICALS_AR	shelf195.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_AR	PERIODICALS_AR	shelf196.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_AR	PERIODICALS_BU	shelf197.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_BU	PERIODICALS_C0	shelf198.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_C0	PERIODICALS_D0	shelf199.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_D0	PERIODICALS_H0	shelf200.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_H0	PERIODICALS_J0	shelf201.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_J0	PERIODICALS_MA	shelf202.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_MA	PERIODICALS_MU	shelf203.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_MU	PERIODICALS_PE	shelf204.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_PE	PERIODICALS_SM	shelf205.gif	Stacks Floor 2M	
+!!		Brooklyn 2M Periodicals					
+#			PERIODICALS_SM	PERIODICALS_Z999	shelf206.gif	Stacks Floor 2M
+!!		Brooklyn 3rd Floor East					
+#				999_000000000000000	ref.gif	These items have moved. Ask for help at the reference desk.
+!!		Brooklyn Art & Arch Periodicals					
+#				Z	fl2.gif		Periodicals are shelved by publication title. Current issues are in the center room. Older issues are bound in volumes in the East and West rooms.						
+!!		Brooklyn Artists' Books/Ask at Reference Desk					
+#			0_000000000000000	999_990000000000000	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Children's Non-Fiction					
+#			ACM000	ACM811_P	shelf186.gif	Floor 2M	
+!!		Brooklyn Children's Fiction					
+#			ACM811_P	ACMF	shelf187.gif	Floor 2M	
+!!		Brooklyn Children's Fiction					
+#			ACMF	ACMS	shelf188.gif	Floor 2M	
+!!		Brooklyn Children's Fiction					
+#			ACMS	ACMZ	shelf189.gif	Floor 2M
+!!		Brooklyn Children's Oversize				
+#			ACMS	ACMZ	shelf189.gif	Floor 2M
+!!		Brooklyn Circulation Desk - CD/DVD					
+#			0_000000000000000	999_990000000000000	circ.gif		Write down the call number and location to request item at circulation desk.	
+!!		Brooklyn Circulation Desk - Maps					
+#			0_000000000000000	999_990000000000000	circ.gif		Write down the call number and location to request item at circulation desk.
+!!		Brooklyn Closed Stacks/Ask at Reference Desk					
+#				999_990000000000000	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Closed Stacks Oversize/Ask at Reference Desk					
+#				999_990000000000000	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Current Periodicals					
+#			A	Z	fl2.gif		Periodicals are shelved by publication title. Current issues are in the center room.
+!!		Brooklyn Fiction					
+#			A	BRO	shelf207.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			BRO	DEI	shelf208.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			DEI	FIC	shelf209.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			FIC	HAR	shelf210.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			HAR	KAV	shelf211.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			KAV	MAN	shelf212.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			MAN	MAU	shelf213.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			MAU	RAN	shelf214.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			RAN	SPA	shelf215.gif	Floor 1	
+!!		Brooklyn Fiction					
+#			SPA	Z	shelf216.gif	Floor 1	
+!!		Brooklyn Lower Level Cage/Ask at Reference Desk					
+#				Z	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Lower Level Periodicals					
+#			A	Z	ref.gif	Lower Level	Periodicals are shelved alphabetically by title. Feel free to find the title on the lower level of the stacks yourself or ask a librarian for help at the reference desk.
+!!		Brooklyn Lower Level Stacks					
+#				999_000000000000000	ref.gif	Lower Level	Stacks are shelved by Dewey call number. Ask at reference for assistance.
+!!		Brooklyn Microforms					
+#			A	Z	ref.gif	Ask for help with microforms at the reference desk.
+!!		Brooklyn Pop-up Books/Ask at Reference Desk					
+#			0_000000000000000	999_990000000000000	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Pop-up Books/Ask at Reference Desk					
+#			0_000000000000000	999_990000000000000	ref.gif		Write down the call number and location to request item at reference desk.
+!!		Brooklyn Ready Reference					
+#			0_000000000000000	999_990000000000000	ready.gif	
+!!		Brooklyn Reference					
+#			0_000000000000000	30_000000000000000	shelf217.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			30_000000000000000	80_000000000000000	shelf218.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			80_000000000000000	291_000000000000000	shelf219.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			291_000000000000000	297_000000000000000	shelf220.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			297_000000000000000	307_000000000000000	shelf221.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			307_000000000000000	361_000000000000000	shelf222.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			361_000000000000000	528_000000000000000	shelf223.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			528_000000000000000	690_000000000000000	shelf224.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			690_000000000000000	720_000000000000000	shelf225.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			720_000000000000000	808_000000000000000	shelf226.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			808_000000000000000	917_000000000000000	shelf227.gif	Floor 1 - reference	
+!!		Brooklyn Reference					
+#			917_000000000000000	999_000000000000000	shelf228.gif	Floor 1 - reference	
+!!		Brooklyn Reference - Atlases					
+#			000_000000000000000	999_000000000000000	ref.gif	Floor 1 - reference	
+!!		Brooklyn Reference - Sanborn Maps					
+#			000_000000000000000	999_000000000000000	ref.gif	Floor 1 - reference	
+!!		Brooklyn Special Collection Periodicals/Ask at Reference Desk					
+#			A	Z	ref.gif	Request this item at the reference desk.
+!!		Brooklyn Reserves					
+#			000_000000000000000	999_000000000000000	circ.gif	Request this item at the circulation desk.	
+!!		Brooklyn Stacks					
+#			001_000000000000000	006_000000000000000_5A	shelf1.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			006_000000000000000_5A	069_028500000000000_C	shelf2.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			069_028500000000000_C	111_100000000000000_K	shelf3.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			111_100000000000000_K	136_100000000000000_S	shelf4.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			136_100000000000000_S	150_195200000000000	shelf5.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			150_195200000000000	155_000000000000000_T	shelf6.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			155_000000000000000_T	160_000000000000000_J	shelf7.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			160_000000000000000_J	190_000000000000000_R	shelf8.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			190_000000000000000_R	194_900000000000000_W	shelf9.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			194_900000000000000_W	230_200000000000000_W	shelf10.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			230_200000000000000_W	290_000000000000000_N	shelf11.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			290_000000000000000_N	299_510000000000000_P	shelf12.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			299_510000000000000_P	301_160000000000000_T	shelf13.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			301_160000000000000_T	301_402000000000000_M	shelf14.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			301_402000000000000_M	301_620000000000000_0	shelf15.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			301__620000000000000_0	304_600000000000000	shelf16.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			304_600000000000000	305_890000000000000	shelf17.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			305_890000000000000	306_850000000000000	shelf18.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			306_850000000000000	307_760900000000000	shelf19.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			307_760900000000000	309_180000000000000	shelf20.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			309_180000000000000	320_940000000000000	shelf21.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			320_940000000000000	324_600000000000000_K	shelf22.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			324_600000000000000_K	327_730000000000000_L	shelf23.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			327_730000000000000_L	330_917320000000000	shelf24.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			330_917320000000000	331_850000000000000_K	shelf25.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			331_850000000000000_K	335_000000000000000_C	shelf26.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			335_000000000000000_C	338_477000000000000_H	shelf27.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			338_477000000000000_H	342_040000000000000	shelf28.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			342_040000000000000	353_008000000000000	shelf29.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			353_008000000000000	362_293000000000000	shelf30.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			362_293000000000000	364_152000000000000	shelf31.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			364_152000000000000	371_010000000000000_G	shelf32.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			371_010000000000000_G	378_198100000000000_B	shelf33.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			378_198100000000000_B	388_320000000000000	shelf34.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			388_320000000000000	391_090400000000000_F	shelf35.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			391_090400000000000_F	391_200000000000000	shelf36.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			391_200000000000000	398_209000000000000	shelf37.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			398_209000000000000	500_000000000000000_B	shelf38.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			500_000000000000000_B	512_860000000000000_S	shelf39.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			512_860000000000000_S	523_112000000000000_H	shelf40.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			523_112000000000000_H	535_300000000000000_M	shelf41.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			535_300000000000000_M	547_730000000000000	shelf42.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			547_730000000000000	574_192000000000000	shelf43.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			574_192000000000000	597_800000000000000	shelf44.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			597_800000000000000	612_670000000000000	shelf45.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			612_670000000000000	616_891400000000000	shelf46.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			616_891400000000000	620_190000000000000	shelf47.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			620_190000000000000	623_823000000000000	shelf48.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			623_823000000000000	629_220000000000000	shelf49.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			629_220000000000000	642_500000000000000_S	shelf50.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			642_500000000000000_S	658_022000000000000	shelf51.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			658_022000000000000	658_834000000000000	shelf52.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			658_834000000000000	666_400000000000000_P	shelf53.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			666_400000000000000_P	686_209030000000000	shelf54.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			686_209040000000000	690_097300000000000_B	shelf55.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			690_097300000000000_C	699_000000000000000	shelf56.gif	Floor 1	
+!!		Brooklyn Stacks					
+#			700_000000000000000_A	701_000000000000000_F	shelf57.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			701_000000000000000_F	701_800000000000000	shelf58.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			701_800000000000000	704_042000000000000_L	shelf59.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			704_042000000000000_L	704_948940000000000	shelf60.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			704_948940000000000	707_092000000000000_D	shelf61.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			707_092000000000000_D	708_194000000000000_H	shelf62.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			708_194000000000000_H	709_000000000000000_S	shelf63.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_000000000000000_S	709_034000000000000_A	shelf64.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_034000000000000_A	709_040000000000000_K	shelf65.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_040000000000000_K	709_040700000000000_B	shelf66.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_040700000000000_B	709_040760000000000_M	shelf67.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_040760000000000_M	709_400000000000000_M	shelf68.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_400000000000000_M	709_450000000000000_H	shelf69.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_450000000000000_H	709_510000000000000_M	shelf70.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_510000000000000_M	709_720000000000000_G	shelf71.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_720000000000000_G	709_730000000000000_V	shelf72.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			709_730000000000000_V	711_400000000000000_C	shelf73.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			711_400000000000000_C	711_942000000000000_D	shelf74.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			711_942000000000000_D	712_094900000000000	shelf75.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			712_094900000000000	720_100000000000000_C	shelf76.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_100000000000000_C	720_000000000000000_284T	shelf77.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_284T	720_000000000000000_87A	shelf78.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_87A	720_000000000000000_942L	shelf79.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_942L	720_000000000000000_944V	shelf80.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_944V	720_000000000000000_947K	shelf81.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_947K	720_000000000000000_952A	shelf82.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_952A	720_000000000000000_973D	shelf83.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_973D	720_000000000000000_973L	shelf84.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_973L	720_000000000000000_973S	shelf85.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_973S	720_000000000000000_9747D	shelf86.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			720_000000000000000_9747D	721_000000000000000_R	shelf87.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			721_000000000000000_R	724_000000000000000_1R	shelf88.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			724_000000000000000_1R	724_000000000000000_9M	shelf89.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			724_000000000000000_9M	725_000000000000000_7P	shelf90.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			725_000000000000000_7P	726_000000000000000_7B	shelf91.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			726_000000000000000_7B	728_000000000000000_0942S	shelf92.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			728_000000000000000_0942S	728_000000000000000_6W	shelf93.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			728_000000000000000_6W	728_000000000000000_82094K	shelf94.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			728_000000000000000_82094K	730H	shelf95.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			730H	730_000000000000000_945P	shelf96.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			730_000000000000000_945P	730_973000000000000	shelf97.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			730_973000000000000	735_000000000000000_23S	shelf98.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			735_000000000000000_23S	738_000000000000000_37B	shelf99.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			738_000000000000000_37B	741_000000000000000_A784	shelf100.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_A784	741_000000000000000_24W	shelf101.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_24W	741_000000000000000_5973S	shelf102.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_5973S	741_600000000000000	shelf103.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_600000000000000	741_000000000000000_6092R	shelf104.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_6092R	741_000000000000000_66B	shelf105.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_66B	741_000000000000000_904T	shelf106.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_904T	741_000000000000000_945B	shelf107.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			741_000000000000000_945B	743_000000000000000_49C	shelf108.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			743_000000000000000_49C	745_000000000000000_1K	shelf109.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			745_000000000000000_1K	745_000000000000000_4I	shelf110.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			745_000000000000000_4I	745_000000000000000_5F	shelf111.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			745_000000000000000_5F	745_000000000000000_92Y	shelf112.gif	Floor 1M	
+!!		Brooklyn Stacks					
+#			745_000000000000000_92Y	746_000000000000000_6V	shelf113.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			746_000000000000000_6V	747_000000000000000_094L	shelf114.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			747_000000000000000_094L	747_000000000000000_852H	shelf115.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			747_000000000000000_852H	749R	shelf116.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			749R	749_000000000000000_32K	shelf117.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			749_000000000000000_32K	751_000000000000000_73B	shelf118.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			751_000000000000000_73B	759L	shelf119.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759L	759_000000000000000_0652N	shelf120.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_0652N	759_000000000000000_1D	shelf121.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_1D	759_000000000000000_1H766	shelf122.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_1H766	759_000000000000000_1N	shelf123.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_1N	759_000000000000000_1S634W	shelf124.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_1S634W	759_000000000000000_2F	shelf125.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_2F	759_000000000000000_3A	shelf126.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_3A	759_000000000000000_36K	shelf127.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_36K	759_000000000000000_4D317	shelf128.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_4D317	759_000000000000000_4M27	shelf129.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_4M27	759_000000000000000_4T7258	shelf130.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_4T7258	759_000000000000000_5B489	shelf131.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_5B489	759_000000000000000_5L581	shelf132.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_5L581	759_000000000000000_55T454	shelf133.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_55T454	759_000000000000000_8M963	shelf134.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_8M963	759_000000000000000_9492M	shelf135.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_9492M	759_000000000000000_951F	shelf136.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			759_000000000000000_951F	764C	shelf137.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			764C	769_000000000000000_943N	shelf138.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			769_000000000000000_943N	769_952000000000000	shelf139.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			769_952000000000000	770L	shelf140.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			770L	770_000000000000000_5P	shelf141.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			770_000000000000000_5P	770_000000000000000_973G	shelf142.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			770_000000000000000_973G	778_000000000000000_6H	shelf143.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			778_000000000000000_6H	779A	shelf144.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			779A	779F	shelf145.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			779F	779M	shelf146.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			779M	779S	shelf147.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			779S	780_000000000000000_92C	shelf148.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			780_000000000000000_92C	784_000000000000000_19H	shelf149.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			784_000000000000000_19H	791_000000000000000_43015M	shelf150.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			791_000000000000000_43015M	791_000000000000000_437F	shelf151.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			791_000000000000000_437F	792_000000000000000_0945N	shelf152.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			792_000000000000000_0945N	799_990000000000000	shelf153.gif	Floor 2	
+!!		Brooklyn Stacks					
+#			800_000000000000000	808_000000000000000_3G	shelf154.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			808_000000000000000_3G	809_000000000000000_1H	shelf155.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			809_000000000000000_1H	810_000000000000000_99S	shelf156.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			810_000000000000000_99S	811O	shelf157.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			811O	812M	shelf158.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			812M	813H	shelf159.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			813H	814_000000000000000_6P	shelf160.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			814_000000000000000_6P	818T	shelf161.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			818T	821C	shelf162.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			821C	821Y	shelf163.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			821Y	822_000000000000000_04F	shelf164.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			822_000000000000000_04F	823C	shelf165.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			823C	824L	shelf166.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			824L	828_000000000000000_08L	shelf167.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			828_000000000000000_08L	842H	shelf168.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			842H	860F	shelf169.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			860F	888_000000000000000_4D	shelf170.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			888_000000000000000_4D	895_000000000000000_6B	shelf171.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			895_000000000000000_6B	910_000000000000000_28G	shelf172.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			910_000000000000000_28G	915_000000000000000_2H	shelf173.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			915_000000000000000_2H	917_000000000000000_56M	shelf174.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			917_000000000000000_56M	935B	shelf175.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			935B	941_000000000000000_081V	shelf176.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			941_000000000000000_081V	945_000000000000000_05B	shelf177.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			945_000000000000000_05B	952M	shelf178.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			952M	965_000000000000000_04F	shelf179.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			965_000000000000000_04F	973B	shelf180.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			973B	973_000000000000000_3S	shelf181.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			973_000000000000000_3S	973_000000000000000_8N	shelf182.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			973_000000000000000_8N	974_000000000000000_4M	shelf183.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			974_000000000000000_4M	976_000000000000000_4I	shelf184.gif	Floor 2M	
+!!		Brooklyn Stacks					
+#			976_000000000000000_4I	999_990000000000000	shelf185.gif	Floor 2M	
+!!		Brooklyn Stacks Oversize					
+#			720_000000000000000	730_948500000000000	shelf190.gif	Stacks Floor 2M	
+!!		Brooklyn Stacks Oversize					
+#			730_948500000000000	759_400000000000000	shelf191.gif	Stacks Floor 2M	
+!!		Brooklyn Stacks Oversize					
+#			759_400000000000000	912_000000000000000	shelf192.gif	Stacks Floor 2M	
+!!		Brooklyn Stacks Oversize					
+#			912_000000000000000	999_000000000000000	shelf193.gif	Stacks Floor 2M		
+!!		Technical Services--Brooklyn					
+#				999_990000000000000	ref.gif		Item may be unavailable. Write down the call number and location to request item at reference desk.
+!!		Brooklyn Zine Collection					
+#			A	Z	ref.gif		Write down the call number and location to request item at reference desk.
+!!		VMR Desk, Lower Level					
+#				999_990000000000000	vmr_desk.gif		Write down the call number and location to request item at the VMR Desk.
+!!		VMR Equipment Loan Office					
+#				999_990000000000000	equip.gif		Ask for item at the equipment loan office.
+!!		VMR Media					
+#				999_990000000000000	vmr_desk.gif		Request item at VMR Desk on lower level.
+!	Pratt Manhattan Center						
+!!		Manhattan Center Stacks					
+#			000_000000000000000	020_190000000000000	PMC_shelf1.gif		
+!!		Manhattan Center Stacks					
+#			020_190000000000000	021_700000000000000	PMC_shelf2.gif		
+!!		Manhattan Center Stacks					
+#			021_700000000000000	025_000000000000000	PMC_shelf2-5.gif		
+!!		Manhattan Center Stacks					
+#			025_000000000000000	025_210000000000000	PMC_shelf3.gif		
+!!		Manhattan Center Stacks					
+#			025_210000000000000	025_500000000000000	PMC_shelf4.gif		
+!!		Manhattan Center Stacks					
+#			025_500000000000000	025_700000000000000	PMC_shelf4-5.gif		
+!!		Manhattan Center Stacks					
+#			025_700000000000000	027_600000000000000	PMC_shelf5.gif		
+!!		Manhattan Center Stacks					
+#			027_600000000000000	028_520000000000000	PMC_shelf6.gif		
+!!		Manhattan Center Stacks					
+#			028_520000000000000	029_700000000000000	PMC_shelf6-5.gif		
+!!		Manhattan Center Stacks					
+#			029_700000000000000	371_350000000000000	PMC_shelf7.gif		
+!!		Manhattan Center Stacks					
+#			371_350000000000000	700_000000000000000	PMC_shelf8.gif		
+!!		Manhattan Center Stacks					
+#			700_000000000000000	709_430000000000000	PMC_shelf8-5.gif		
+!!		Manhattan Center Stacks					
+#			709_430000000000000	741_609000000000000	PMC_shelf9.gif		
+!!		Manhattan Center Stacks					
+#			741_609000000000000	769_940000000000000	PMC_shelf10.gif		
+!!		Manhattan Center Stacks					
+#			769_940000000000000	808_000000000000000	PMC_shelf10-5.gif		
+!!		Manhattan Center Stacks					
+#			808_000000000000000	999_000000000000000	PMC_shelf11.gif		
+!!		Manhattan Center Periodicals					
+#			A	Z	PMC_current_periodicals.gif	Pratt Manhattan Current Periodicals	
+!!		Manhattan Center Reference					
+#			000_000000000000000	999_990000000000000	PMC_ref.gif	Pratt Manhattan Reference	
+!!		Manhattan Center Fiction					
+#			A	Z	PMC_fic.gif	Pratt Manhattan Fiction	
+!!		Electronic Items					
+#				Z	web_resource.png	This is a digital item. Just click the back button on your browser and look for the link under Connect to near the bottom of the page.	
+!!		World Wide Web					
+#				Z	web_resource.png	This is a digital item. Just click the back button on your browser and look for the link under Connect to near the bottom of the page.	
