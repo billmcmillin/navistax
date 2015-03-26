@@ -1,0 +1,17 @@
+Structure
+
+
+examples
+	each contains:
+		generate.py
+		main php file - index or getMap
+		img directory
+
+utility_files
+
+docs
+
+images
+	example images
+	editing scripts
+
