@@ -11,7 +11,7 @@ console.debug("Id num: "+idnum);
     $j.ajax({
 
         type: "GET",
-        url: "http://lh2cc.net/dse/efrierson/demos/illinois_state/formURL.php",
+        url: "./formURL.php",
         data: 'idnum=' + idnum,
         success: function(json){
         console.debug("Logging JSON: "+json);
